@@ -3,6 +3,8 @@ from openai import OpenAI
 import os
 import base64
 
+# streamlit cloud 환경에서는 dotenv 대신 streamlit의 secrect 기능을 사용할 것이다.
+
 client = OpenAI() # api_key = OPENAI_API_KEY
 
 def stt(audio):
