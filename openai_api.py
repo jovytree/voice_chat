@@ -1,9 +1,7 @@
-from dotenv import load_dotenv
+
 from openai import OpenAI
 import os
 import base64
-
-load_dotenv()
 
 client = OpenAI() # api_key = OPENAI_API_KEY
 
